@@ -4,22 +4,20 @@ mainSections = ["post"]
 rssFullContent = true
 favicon        = "img/favicon.png"
 
-# Accepted values: "default", "lastmod"
-# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
-# lastmod = sort by last modified date, in descending order
+# 排序方式
 SortBy              = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since      = 2026
+    customText = "美股釣魚師 - 投資與生活的平衡點"
 
 [dateFormat]
     published   = ":date_full"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji    = "🎣"
+    subtitle = "專注美股趨勢，在股海中靜心垂釣。這裡記錄我的投資洞察與市場觀察。"
     avatar   = "img/avatar.png"
 
 [article]
@@ -29,7 +27,7 @@ SortBy              = "default"
 
     [article.license]
         enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+        default = "本站內容未經授權請勿轉載，投資有風險，請謹慎評估。"
 
 [widgets]
     homepage = [
@@ -52,6 +50,3 @@ SortBy              = "default"
 [comments]
     enabled  = true
     provider = "disqus"
-
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
